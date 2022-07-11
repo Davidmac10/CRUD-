@@ -82,6 +82,30 @@ article{
     margin-bottom: 15px;
 }
 
+.contenedor-center{
+    margin: 100px 400px;
+}
+
+.contenedor-formulario_update form{
+    width: 350px;
+    height: 300px;
+    background-color: #444;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 25px #000;
+    border-top: 5px solid rgb(0, 250, 190);
+}
+
+.contenedor-formulario_update form h1{
+    color: white;
+    text-align: center;
+    font-family: 'Lobster 1.4';
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
 input{
     display: block;
     text-align: center;
