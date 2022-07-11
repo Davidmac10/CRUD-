@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header, footer{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+}
+
+div.contenedor-logo{
+    color: #fff;
+    font-size: 10px;
+    font-family: 'lobster 1.4';
+    padding: 11px 10px;
+    font-size: 10px;
+}
+
+h1 div{
+    display: inline-block;
+    width: 4%;
+    background-color: #ff9600;
+    border-radius: 5px;
+    padding-left: 5px;
+} 
+
+article{
+    height: 500px;
+    width: 100%;
+}
+
+.contenedor-formulario-tabla .contenedor-formulario, .contenedor-formulario-tabla .contenedor-tabla{
+    float: left;
+}
+
+.contenedor-formulario-tabla .contenedor-formulario{
+    width: 45%;
+    height: 300px;
+    margin: 25px 35px;
+    padding-top: 15px;
+}
+
+.contenedor-formulario-tabla .contenedor-tabla{
+    width: 45%;
+    height: 300px;
+    margin: 25px 10px;
+    padding-top: 15px;
+}
+
+.contenedor-formulario-tabla{
+    width: 95%;
+    height: 400px;
+    margin: 25px auto;
+    padding-top: 15px;
+}
+
+.contenedor-formulario form{
+    width: 350px;
+    height: 300px;
+    background-color: #444;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 25px #000;
+    border-top: 5px solid rgb(0, 250, 190);
+}
+
+
+.contenedor-formulario form h1{
+    color: white;
+    text-align: center;
+    font-family: 'Lobster 1.4';
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+input{
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+}
+
+input.normal-input{
+    border-radius: 10px;
+    height: 30px;
+    color: red;
+    font-weight: bolder;
+}
+
+input.upload-submit{
+    border-radius: 10px;
+    height: 30px;
+    background-color: #ff9600;
+    color: white;
+    height: 20px;
+    width: 50%;
+    border: none;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 15px #444;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+th{
+    color: #fff;
+    background-color: aqua;
+    font-family: 'Lobster 1.4';
+    height: 30px;
+}
+
+td{
+    color: #000;
+    font-weight: bold;
+    height: 25px;
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+
+footer{
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Lobster 1.4';
+    color: #fff;
+}
+
+
+
+
