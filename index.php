@@ -22,6 +22,7 @@
                 <th>ID</th>
                 <th>AUTOR</th>
                 <th>FAVORITE PORN STAR</th>
+                <th>Actions</th>
             </tr>
             <?php
                 $query = "SELECT * FROM postimg";
@@ -31,6 +32,10 @@
                         <td><?php echo $row['id_post']?></td>
                         <td><?php echo $row['name_cli']?></td>
                         <td><?php echo $row['fav_pornstar']?></td>
+                        <td>
+                            <a href="editar.php?id_post=<?php echo $row['id_post'];?>">E</a>
+                            <a href="eliminar.php?id_post=<?php echo $row['id_post'];?>">D</a>
+                        </td>
                     </tr>
                 <?php } ?> 
         </table>
