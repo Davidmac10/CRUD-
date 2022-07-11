@@ -33,8 +33,12 @@
                         <td><?php echo $row['name_cli']?></td>
                         <td><?php echo $row['fav_pornstar']?></td>
                         <td>
-                            <a href="editar.php?id_post=<?php echo $row['id_post'];?>">E</a>
-                            <a href="eliminar.php?id_post=<?php echo $row['id_post'];?>">D</a>
+                            <div class="buttonedit">
+                                <a href="editar.php?id_post=<?php echo $row['id_post'];?>">E</a>
+                            </div>
+                           <div class="buttondelete">
+                                <a href="eliminar.php?id_post=<?php echo $row['id_post'];?>">D</a>
+                           </div>
                         </td>
                     </tr>
                 <?php } ?> 
