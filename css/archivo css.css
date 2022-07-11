@@ -5,8 +5,7 @@
 }
 
 body{
-    background-image: url("../background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../media/juanjo-jaramillo-mZnx9429i94-unsplash-scaled.jpg");
     background-size: 100% 100%;
 }
 
@@ -110,7 +109,7 @@ table{
     width: 90%;
     margin: auto;
     border-collapse: collapse;
-    box-shadow: 5px 5px 15px #444;
+    box-shadow: 5px 5px 15px #000;
     background-color: #fff;
     border-radius: 15px;
 }
